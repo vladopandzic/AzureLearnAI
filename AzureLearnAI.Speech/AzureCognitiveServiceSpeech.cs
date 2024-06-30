@@ -1,4 +1,5 @@
 ﻿using Microsoft.CognitiveServices.Speech;
+using Microsoft.CognitiveServices.Speech.Audio;
 
 namespace AzureLearnAI.Speech;
 
@@ -31,7 +32,7 @@ public static class AzureCognitiveServiceSpeech
         }
     }
 
-    public static async Task Run()
+    public static async Task TextToSpeech()
     {
         var speechConfig = SpeechConfig.FromSubscription(speechKey, speechRegion);
 
@@ -48,5 +49,18 @@ public static class AzureCognitiveServiceSpeech
 
         Console.WriteLine("Press any key to exit...");
         Console.ReadKey();
+    }
+
+    public static async Task FromMic()
+    {
+        var speechConfig = SpeechConfig.FromSubscription(speechKey, speechRegion);
+
+
+        using var audioConfig = AudioConfig.FromDefaultMicrophoneInput();
+        using var speechRecognizer = new SpeechRecognizer(speechConfig, audioConfig);
+
+        Console.WriteLine("Speak into your microphone.");
+        var result = await speechRecognizer.RecognizeOnceAsync();
+        Console.WriteLine($"RECOGNIZED: Text={result.Text}");
     }
 }

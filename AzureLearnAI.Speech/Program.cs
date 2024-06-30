@@ -4,8 +4,8 @@ class Program
 {
     async static Task Main(string[] args)
     {
-        await AzureCognitiveServiceSpeech.Run();
+        //await AzureCognitiveServiceSpeech.TextToSpeech();
+
+        await AzureCognitiveServiceSpeech.FromMic();
     }
-
-
 }
