@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureLearnAI.Speech", "AzureLearnAI.Speech\AzureLearnAI.Speech.csproj", "{4E86AC3F-EA45-40BA-8BE8-5993D5F3259F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E86AC3F-EA45-40BA-8BE8-5993D5F3259F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E86AC3F-EA45-40BA-8BE8-5993D5F3259F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E86AC3F-EA45-40BA-8BE8-5993D5F3259F}.Debug|x64.ActiveCfg = Debug|x64
+		{4E86AC3F-EA45-40BA-8BE8-5993D5F3259F}.Debug|x64.Build.0 = Debug|x64
+		{4E86AC3F-EA45-40BA-8BE8-5993D5F3259F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E86AC3F-EA45-40BA-8BE8-5993D5F3259F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E86AC3F-EA45-40BA-8BE8-5993D5F3259F}.Release|x64.ActiveCfg = Release|x64
+		{4E86AC3F-EA45-40BA-8BE8-5993D5F3259F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A88FE96-9E03-4047-B177-497EF59EDFB4}
+	EndGlobalSection
+EndGlobal
