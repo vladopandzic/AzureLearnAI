@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureLearnAI.Speech", "AzureLearnAI.Speech\AzureLearnAI.Speech.csproj", "{4E86AC3F-EA45-40BA-8BE8-5993D5F3259F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureLearnAI.Speech", "AzureLearnAI.Speech\AzureLearnAI.Speech.csproj", "{4E86AC3F-EA45-40BA-8BE8-5993D5F3259F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureLearnAI.Vision.Caption", "AzureLearnAI.Vision\AzureLearnAI.Vision.Caption.csproj", "{9D4A6EA1-AABA-48D6-853F-8C8094E64BD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureLearnAI.AzureOpenAI", "AzureLearnAI.AzureOpenAI\AzureLearnAI.AzureOpenAI.csproj", "{12339DFB-B25B-4392-8CF3-578FBEDACF02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureLearnAI.SemanticKernelExamples", "AzureLearnAI.SemanticKernelExamples\AzureLearnAI.SemanticKernelExamples.csproj", "{E9C91DD0-6F5F-4CAC-8E93-7E3504043D1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,30 @@ Global
 		{4E86AC3F-EA45-40BA-8BE8-5993D5F3259F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4E86AC3F-EA45-40BA-8BE8-5993D5F3259F}.Release|x64.ActiveCfg = Release|x64
 		{4E86AC3F-EA45-40BA-8BE8-5993D5F3259F}.Release|x64.Build.0 = Release|x64
+		{9D4A6EA1-AABA-48D6-853F-8C8094E64BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4A6EA1-AABA-48D6-853F-8C8094E64BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4A6EA1-AABA-48D6-853F-8C8094E64BD0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9D4A6EA1-AABA-48D6-853F-8C8094E64BD0}.Debug|x64.Build.0 = Debug|Any CPU
+		{9D4A6EA1-AABA-48D6-853F-8C8094E64BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4A6EA1-AABA-48D6-853F-8C8094E64BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D4A6EA1-AABA-48D6-853F-8C8094E64BD0}.Release|x64.ActiveCfg = Release|Any CPU
+		{9D4A6EA1-AABA-48D6-853F-8C8094E64BD0}.Release|x64.Build.0 = Release|Any CPU
+		{12339DFB-B25B-4392-8CF3-578FBEDACF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12339DFB-B25B-4392-8CF3-578FBEDACF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12339DFB-B25B-4392-8CF3-578FBEDACF02}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{12339DFB-B25B-4392-8CF3-578FBEDACF02}.Debug|x64.Build.0 = Debug|Any CPU
+		{12339DFB-B25B-4392-8CF3-578FBEDACF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12339DFB-B25B-4392-8CF3-578FBEDACF02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12339DFB-B25B-4392-8CF3-578FBEDACF02}.Release|x64.ActiveCfg = Release|Any CPU
+		{12339DFB-B25B-4392-8CF3-578FBEDACF02}.Release|x64.Build.0 = Release|Any CPU
+		{E9C91DD0-6F5F-4CAC-8E93-7E3504043D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C91DD0-6F5F-4CAC-8E93-7E3504043D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C91DD0-6F5F-4CAC-8E93-7E3504043D1D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E9C91DD0-6F5F-4CAC-8E93-7E3504043D1D}.Debug|x64.Build.0 = Debug|Any CPU
+		{E9C91DD0-6F5F-4CAC-8E93-7E3504043D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C91DD0-6F5F-4CAC-8E93-7E3504043D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C91DD0-6F5F-4CAC-8E93-7E3504043D1D}.Release|x64.ActiveCfg = Release|Any CPU
+		{E9C91DD0-6F5F-4CAC-8E93-7E3504043D1D}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
